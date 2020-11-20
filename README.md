@@ -22,7 +22,7 @@ Any PR-s are welcome.
 **Not work in GOPATH mode**
 
 ```
-go get -u github.com/albenik/go-serial/v2
+GOMODULES=on go get -u github.com/albenik/go-serial/v2
 ```
 
 **`CGO_ENABLED=1` required for MacOS build**
